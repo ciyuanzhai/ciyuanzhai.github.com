@@ -1,1 +1,46 @@
-Hello, world!
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <!--[if IE]><![endif]-->
+
+  <title></title>
+
+  <meta name="robots" content="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/core/reset.css?v=0">
+  <link rel="stylesheet" href="css/core/typography.css?v=0">
+  <link rel="stylesheet" href="css/core/rhyme.css?v=0">
+  <link rel="stylesheet" href="css/global.css?v=0">
+  <link rel="stylesheet" href="css/main.css?v=0">
+  
+  <script src="js/jquery.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    $(window).load(function() {
+      setTimeout(function() {
+        $('#logo').fadeIn(777);
+      }, 600);
+      setTimeout(function() {
+        $('.notice').fadeIn(777);
+      }, 1000);
+    });
+  </script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="logo-wrap">
+      <img id="logo" src="img/logo.png" alt="雅頌居" />
+    </div>
+    <strong class="notice">Coming soon...</strong>
+  </div>
+</body>
+</html>

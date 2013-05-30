@@ -1,0 +1,18 @@
+#wrapper {
+  text-align: center;
+  border-top: 3px solid #333;
+}
+
+#wrapper > strong {
+  display: none;
+}
+
+.logo-wrap {
+  padding-top: 12%;
+  height: 240px;
+  margin: 0 auto;
+}
+
+#logo {
+  display: none;
+}
